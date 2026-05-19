@@ -9,6 +9,16 @@ A través de tareas de limpieza, transformación y visualización de datos, se b
 
 ---
 
+# Estructura del repositorio
+
+| Archivo | Descripción |
+|---|---|
+| `practica TP1.ipynb` | Notebook principal con el análisis exploratorio de datos |
+| `listings.csv` | Dataset utilizado para el análisis |
+| `README.md` | Documentación general del proyecto |
+
+---
+
 # Contexto del dataset
 
 El dataset utilizado corresponde a publicaciones de alojamientos de Airbnb en la ciudad de Buenos Aires y fue obtenido desde Inside Airbnb, una plataforma que recopila información pública relacionada con anuncios de Airbnb alrededor del mundo.
