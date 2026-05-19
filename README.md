@@ -101,3 +101,54 @@ Se generaron distintos gráficos para facilitar la interpretación de los datos:
 
 ## 5. Conclusiones
 Finalmente, se analizaron las hipótesis planteadas inicialmente y se elaboraron conclusiones generales sobre el comportamiento del mercado de alojamientos de Airbnb en Buenos Aires.
+
+
+---
+
+# Hipótesis planteadas
+
+## Hipótesis 1
+Los hosts categorizados como superhosts poseen mejores valoraciones promedio que los hosts normales.
+
+## Hipótesis 2
+Existe una relación positiva entre la capacidad de huéspedes (`accommodates`) y la cantidad de camas (`beds`) disponibles en el alojamiento.
+
+## Hipótesis 3
+La mayoría de los alojamientos presentan una cantidad baja de noches mínimas requeridas para realizar una reserva.
+
+## Hipótesis 4
+Las valoraciones de los alojamientos tienden a ser altas y presentan baja dispersión.
+
+## Hipótesis 5
+Existen valores atípicos significativos en variables relacionadas con disponibilidad, cantidad de reviews y noches mínimas.
+
+---
+
+# Conclusiones
+
+## Conclusión Hipótesis 1
+El análisis de ratings promedio según la categoría de superhost no mostró diferencias relevantes entre ambos grupos. Tanto los superhosts como los hosts normales presentan valoraciones altas y relativamente similares dentro del dataset analizado.
+
+## Conclusión Hipótesis 2
+El scatterplot mostró una tendencia general positiva entre la capacidad de huéspedes (`accommodates`) y la cantidad de camas (`beds`). Sin embargo, la relación presenta una dispersión considerable y múltiples valores atípicos, por lo que no puede considerarse una asociación estrictamente lineal.
+
+## Conclusión Hipótesis 3
+La distribución de `minimum_nights` presentó una fuerte asimetría positiva. La mediana observada fue baja, indicando que la mayoría de los alojamientos requieren pocas noches mínimas para reservar. Sin embargo, se detectaron algunos valores extremos muy elevados, posiblemente asociados a alquileres de larga duración.
+
+## Conclusión Hipótesis 4
+Las variables relacionadas con ratings presentaron medias cercanas al valor máximo posible y desvíos estándar relativamente bajos. Esto sugiere que la mayoría de los alojamientos poseen valoraciones positivas y que las calificaciones otorgadas por los usuarios tienden a concentrarse en rangos altos, mostrando una dispersión reducida.
+
+## Conclusión Hipótesis 5
+El análisis exploratorio permitió detectar valores atípicos significativos en variables como `minimum_nights`, `number_of_reviews` y `availability_365`. Estos registros extremos se observaron tanto en las estadísticas descriptivas como en los boxplots realizados, evidenciando comportamientos poco frecuentes y una elevada dispersión en determinadas variables del dataset.
+
+---
+
+# Conclusión general
+
+El análisis exploratorio realizado sobre el dataset de Airbnb correspondiente a la ciudad de Buenos Aires permitió identificar diversos patrones relevantes en la oferta de alojamientos publicada en la plataforma.
+
+Se observó una predominancia de propiedades con valoraciones altas y una baja cantidad de noches mínimas requeridas en la mayoría de los casos. Asimismo, se detectó una importante heterogeneidad en variables relacionadas con disponibilidad y cantidad de reviews.
+
+El análisis también permitió identificar valores atípicos significativos en distintas variables del dataset, evidenciando la existencia de comportamientos poco frecuentes dentro de la plataforma. Las visualizaciones realizadas facilitaron la comprensión tanto de las distribuciones generales como de las relaciones entre variables, destacándose particularmente la tendencia positiva entre capacidad de huéspedes y cantidad de camas, aunque con una dispersión considerable.
+
+Finalmente, el dataset presentó una calidad adecuada para el desarrollo del EDA y las tareas de limpieza, transformación e imputación de datos permitieron construir un conjunto de datos consistente para el análisis.
