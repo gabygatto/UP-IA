@@ -14,7 +14,7 @@ A través de tareas de limpieza, transformación y visualización de datos, se b
 | Archivo | Descripción |
 |---|---|
 | `practica TP1.ipynb` | Notebook principal con el análisis exploratorio de datos |
-| `listings.csv` | Dataset utilizado para el análisis |
+| `listings.zip` | Archivo comprimido del dataset utilizado para el análisis (listings.csv) |
 | `README.md` | Documentación general del proyecto |
 
 ---
