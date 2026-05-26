@@ -149,7 +149,7 @@ La distribución de `minimum_nights` presentó una fuerte asimetría positiva. L
 Las variables relacionadas con ratings presentaron medias cercanas al valor máximo posible y desvíos estándar relativamente bajos. Esto sugiere que la mayoría de los alojamientos poseen valoraciones positivas y que las calificaciones otorgadas por los usuarios tienden a concentrarse en rangos altos, mostrando una dispersión reducida.
 
 ## Conclusión Hipótesis 5
-El análisis exploratorio permitió detectar valores atípicos significativos en variables como `minimum_nights`, `number_of_reviews` y `availability_365`. Estos registros extremos se observaron tanto en las estadísticas descriptivas como en los boxplots realizados, evidenciando comportamientos poco frecuentes y una elevada dispersión en determinadas variables del dataset.
+El análisis exploratorio permitió detectar valores atípicos significativos en variables como `minimum_nights`, `number_of_reviews` y `availability_365`. Estos registros extremos se observaron tanto en histogramas como en los boxplots realizados, evidenciando comportamientos poco frecuentes y una elevada dispersión en determinadas variables del dataset.
 
 ---
 
